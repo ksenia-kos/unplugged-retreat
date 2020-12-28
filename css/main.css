@@ -91,6 +91,65 @@ textarea {
 
 /* -------------------------------- BASE STYES -------------------------------- */
 
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+}
+
+ul, ol {
+
+}
+
+a {
+  color: #e2e3ed;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.25em;
+  font-weight: 500;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.875em;
+  font-weight: 500;
+}
+
+h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.125em;
+  font-weight: 500;
+}
+
+h4 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.3125em;
+  font-weight: 500;
+}
+
+p {
+  font-size: 0.875em;
+  line-height: 1.4;
+}
+
+img {
+
+}
+
+figure {
+
+}
+
+address {
+  font-style: normal;
+}
+
 .content-wrapper {
   width: 90%;
 }
@@ -125,6 +184,9 @@ header nav {
   align-items: center;
   flex-flow: row wrap;
   width: 60%;
+  font-size: 1.125em;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 header nav ul {
@@ -203,6 +265,7 @@ aside {
   flex-flow: column wrap;
   flex-basis: 63%;
   margin: 30px 0;
+  text-align: center;
 }
 
 .features h2 {
@@ -422,6 +485,22 @@ footer .copyright {
 
 	/*--------- BASE STYLES ---------*/
 
+  h1 {
+    font-size: 3em;
+  }
+
+  h2 {
+    font-size: 2.25em;
+  }
+
+  h3 {
+    font-size: 1.5em;
+  }
+
+  h4 {
+    font-size: 1.75em;
+  }
+
 	.content-wrapper {
 		width: 80%;
 		max-width: 640px;
@@ -455,6 +534,7 @@ footer .copyright {
 
 	header nav {
 		width: 25%;
+    font-size: ;
 	}
 
 	header nav ul {
@@ -592,6 +672,22 @@ footer .copyright {
 @media only screen and (min-width: 1200px) {
 
 	/*--------- BASE STYLES ---------*/
+
+  h1 {
+    font-size: 3.75em;
+  }
+
+  h3 {
+    font-size: 1.875em;
+  }
+
+  h4 {
+    font-size: 2.1875em;
+  }
+
+  p {
+    font-size: 1.125em;
+  }
 
 	.content-wrapper {
 		max-width: 960px;
