@@ -103,7 +103,9 @@ body {
 }
 
 ul, ol {
-
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -124,13 +126,7 @@ h2 {
   font-weight: 500;
 }
 
-h3 {
-  font-family: 'Poppins', sans-serif;
-  font-size: 1.125em;
-  font-weight: 500;
-}
-
-h4 {
+h3, h4 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.125em;
   font-weight: 500;
@@ -262,6 +258,11 @@ input[type=button] {
   border: none;
   text-align: center;
   text-transform: uppercase;
+  cursor: pointer;
+}
+
+input[type=button]:hover {
+  background-color: #202322;
 }
 
 /* -------------------------------- FEATURES -------------------------------- */
